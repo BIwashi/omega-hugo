@@ -43,7 +43,7 @@
     position: relative;
     z-index: 6;
     &::before{
-        content: 'MADE THINGS';
+        content: 'Enjoy';
         font-family: $secondary-font;
         position: absolute;
         top: 18%;
@@ -88,6 +88,7 @@
             position: relative;
             max-width: 400px;
             overflow: hidden;
+            opacity: 0.5;
             // @extend .image-reveal;
             img{
                 width: 100%;
