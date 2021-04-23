@@ -106,7 +106,7 @@
 {{ with site.Data.homepage.product }}
 <section class="products" id="products">
   <div class="bg">
-    <img src="{{`images/section-bg-2.jpg` | absURL}}" class="img-fluid" alt="section-bg">
+    <img src="{{ .section_img | absURL}}" class="img-fluid" alt="section-bg">
   </div>
   <div class="left-shape">
     <img src="{{`images/left-shape.png` | absURL}}" class="img-fluid" alt="left-shape">
