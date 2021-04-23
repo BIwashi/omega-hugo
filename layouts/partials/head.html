@@ -32,11 +32,11 @@ AUTHOR WEBSITE: https://themefisher.com
   {{ end }}
   {{ end }}
 
-  <!-- {{ with .Params.Image }}
+  {{ with .Params.Image }}
   <meta property="og:image" content="{{ . | absURL }}" />
-  {{ end }} -->
-  <!-- {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }} -->
+  {{ end }}
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
   {{ template "_internal/google_analytics.html" . }}
   {{ template "_internal/google_analytics_async.html" . }}
 
@@ -49,7 +49,7 @@ AUTHOR WEBSITE: https://themefisher.com
   <meta name="twitter:description" content="サイトだよ">
 
   {{"<!-- blog用にTwitterCardを設定 -->" |safeHTML}}
-  <meta name="twitter:image:src" content="https://biwashi.github.io/ynusb_site/images/hero-image/ynusb_main.jpg">
-  <meta property="og:image" content="https://biwashi.github.io/ynusb_site/images/hero-image/ynusb_main.jpg" />
+  <meta name="twitter:image:src" content="https://biwashi.github.io/ynusb_site/images/hero-image/ynusb_main_tcatrd.png">
+  <meta property="og:image" content="https://biwashi.github.io/ynusb_site/images/hero-image/ynusb_main_tcatrd.png" />
 
 </head>
